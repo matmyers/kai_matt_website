@@ -2762,11 +2762,7 @@ input, select, textarea {
 			.tiles article header {
 				position: relative;
 				z-index: 3;
-<<<<<<< HEAD
-
-=======
 				margin: 12em 0 0 0 ;
->>>>>>> master
 			}
 
 			.tiles article h3 {

@@ -6,7 +6,7 @@
 
 (function($) {
 
-	var bgm = new Audio('./audio/composition_quest.mp3');
+	var bgm = new Audio('./audio/tswizzle.mp3');
 	var airhorn = new Audio('./audio/airhorn.mp3');
 
 	var	$window = $(window),
