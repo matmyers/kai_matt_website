@@ -12,6 +12,9 @@
 		$header = $('#header'),
 		$banner = $('#banner');
 
+	var bgm = new Audio('./audio/tswizzle.mp3');
+	var airhorn = new Audio('./audio/airhorn.mp3');
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:    ['1281px',   '1680px'   ],
@@ -91,6 +94,7 @@
 
 	};
 
+
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
@@ -151,6 +155,8 @@
 					$link.on('click', function(event) {
 
 						var href = $link.attr('href');
+
+						airhorn.play();
 
 						// Prevent default.
 							event.stopPropagation();
@@ -319,6 +325,8 @@
 
 			})
 			.on('click', function(event) {
+
+				// bgm.play();
 
 				// Hide.
 					$menu._hide();

@@ -2778,6 +2778,10 @@ input, select, textarea {
 				font-size: 1.75em;
 			}
 
+			.tiles article p {
+				font-size: 1.75em;
+			}
+
 			.tiles article .link.primary {
 				border: 0;
 				height: 100%;
