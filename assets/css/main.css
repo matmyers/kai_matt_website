@@ -2752,7 +2752,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 25%;
 		}
 
 			.tiles article .image {
@@ -2762,15 +2762,21 @@ input, select, textarea {
 			.tiles article header {
 				position: relative;
 				z-index: 3;
+				margin: 12em 0 0 0 ;
 			}
 
 			.tiles article h3 {
+
 				font-size: 1.75em;
 			}
 
 				.tiles article h3 a:hover {
 					color: inherit !important;
 				}
+			.tiles article p {
+				text-transform: lowercase;
+				font-size: 1.75em;
+			}
 
 			.tiles article .link.primary {
 				border: 0;
@@ -2827,32 +2833,32 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 25%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
-			}
+			/*.tiles article:nth-child(6n - 5):before {*/
+				/*background-color: #6fc3df;*/
+			/*}*/
 
-			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
-			}
+			/*.tiles article:nth-child(6n - 4):before {*/
+				/*background-color: #8d82c4;*/
+			/*}*/
 
-			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
-			}
+			/*.tiles article:nth-child(6n - 3):before {*/
+				/*background-color: #ec8d81;*/
+			/*}*/
 
-			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
-			}
+			/*.tiles article:nth-child(6n - 2):before {*/
+				/*background-color: #e7b788;*/
+			/*}*/
 
-			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
-			}
+			/*.tiles article:nth-child(6n - 1):before {*/
+				/*background-color: #8ea9e8;*/
+			/*}*/
 
-			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
-			}
+			/*.tiles article:nth-child(6n):before {*/
+				/*background-color: #87c5a4;*/
+			/*}*/
 
 		@media screen and (max-width: 1280px) {
 
@@ -3484,7 +3490,7 @@ input, select, textarea {
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
-			margin: 5em 0 0 0;
+			margin: 3.5em 0 0 0;
 		}
 
 			#banner.major.alt {
