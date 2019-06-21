@@ -12,7 +12,7 @@
 		$header = $('#header'),
 		$banner = $('#banner');
 
-	var bgm = new Audio('./audio/kawhi_laugh_remix.mp3');
+	var bgm = new Audio('./audio/refactored_bgm.mp3');
 	var airhorn = new Audio('./audio/mlg_airhorn.mp3');
 
 	// Breakpoints.
