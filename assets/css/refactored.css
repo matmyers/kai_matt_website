@@ -3998,3 +3998,23 @@ input, select, textarea {
 	75%  {left:200px; top:200px;}
 	100% {left:0px; top:0px;}
 }
+
+body {
+	opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+	-moz-opacity: .50; /* FF lt 1.5, Netscape */
+	animation-name: bgcolorchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bgcolorchange {
+	0%   {background-color: #242943;}
+	20%  {background-color: green;}
+	40%  {background-color: yellow;}
+	60%  {background-color: red;}
+	80%  {background-color: pink;}
+	100% {background-color: #242943;}
+}
